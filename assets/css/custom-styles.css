@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://use.typekit.net/fqu6mnh.css");
+header,
+.woocommerce-shop header,
+.single-product header,
+.woocommerce-cart header,
+.woocommerce-checkout header{
+  width: 100%;
+  height: 175px;
+  background-color: rgba(255,255,255,0);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+  transition: all .25s linear;
+}
+.single-product header,
+.woocommerce-cart header,
+.woocommerce-checkout header{
+  background-color: rgba(248, 248, 248,1);
+}
+header div,
+.woocommerce-shop header div,
+.single-product header div,
+.woocommerce-cart header div,
+.woocommerce-checkout header div{
+  width: auto;
+  height: 95%;
+  flex-grow: 1;
+}
+header div img,
+.woocommerce-shop header div img,
+.single-product header div img,
+.woocommerce-cart header div img,
+.woocommerce-checkout header div img{
+  width: auto;
+  height: 100%;
+}
+header .menu,
+.woocommerce-shop header .menu,
+.single-product header .menu{
+  list-style: none;
+  display: flex;
+  margin-bottom: 0px;
+}
+header .menu li,
+.woocommerce-shop header .menu li,
+.single-product header .menu li{
+  padding: 0px 10px;
+}
+header .menu li a ,
+.woocommerce-shop header .menu li a,
+.single-product header .menu li a{
+  color: #f8f8f8;
+}
+.single-product header .menu li a,
+.woocommerce-cart header .menu li a,
+.woocommerce-checkout header .menu li a{
+  color: #0e0e0e;
+}
+.scrolledHeader,
+.woocommerce-shop .scrolledHeader,
+.single-product .scrolledHeader,
+.woocommerce-cart .scrolledHeader{
+  height: 75px;
+  background-color: #f8f8f8;
+}
+.scrolledHeader .menu li a,
+.woocommerce-shop .scrolledHeader .menu li a,
+.single-product .scrolledHeader .menu li a{
+  color: #0e0e0e;
+}
+li > a {
+  text-decoration: none;
+}
+.default-header {
+  font-family: "kanit";
+}
+.summary {
+  margin-top:150px;
+}
+.nav-logo {
+  height: 80px;
+  width:80px;
+}
+.posted_in {
+  background-color:#F5BD44;
+  padding:5px;
+  border-radius: 5px;
+}
+.posted_in > a {
+  text-decoration: none;
+}
+.single_add_to_cart_button {
+  background-color:#F5BD44;
+}
+.searchform {
+  display: none;
+}
+.wp-block-heading{
+  margin-top:150px;
+}
+.first-widget-area {
+display:none;
+}
+[role=navigation] {
+  display: none;
+}
+ul{
+  list-style: none;
+}
+
+.shop-masthead {
+  height: 50vh;
+}
+
+.mastheadDiv {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  height: 100%;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.masthead-text{
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  font-family: "kanit";
+}
+h1 {
+  font-size: 60px;
+}
+main {
+  padding-top:300px;
+}
+.accountMain {
+  height:100vh;
+  padding-top:50px;
+}
+.woocommerce-MyAccount-content{
+  text-align: center;
+}
+.woocommerce-MyAccount-navigation-link {
+padding: 5px;
+border-radius: 5px;
+background-color: #D66E4B;
+font-family: "kanit";
+margin-bottom:5px;
+text-align: center;
+color: white;
+}
+.woocommerce-MyAccount-navigation-link > a{
+  color: white;
+}
+.woocommerce-MyAccount-navigation-link > a:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.woocommerce-MyAccount-navigation-link:hover {
+  background-color:#F5BD44;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Hero section */
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  background-color: #80a8ad;
+}
+
+.hero {
+  flex: 1;
+  position: relative;
+  padding: 50px; 
+}
+
+.hero-content {
+  text-align: center;
+  color: #000; 
+  color: white;
+}
+.hero-content > h1 {
+  font-family: "neulis-neue", sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #e7b48d;
+}
+.hero-content > p {
+  font-family: "neulis-neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+/* color: white; */
+}
+
+.hero-image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  width: 900px;
+}
+
+/* Featured products section */
+.featured-products {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card {
+  width: calc(33.333% - 20px);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin-top: 15px;
+}
+
+/* About Us section */
+.about-us {
+  padding: 50px 0;
+justify-content: space-evenly;
+  background-color: #a43a2c;
+  display:flex;
+  align-items: center;
+  color: white;
+}
+.about-us2 {
+  padding: 50px 0;
+justify-content: space-evenly;
+  background-color: #ed8e3a;
+  display:flex;
+  align-items: center;
+  color: white;
+}
+
+.about-us p {
+  margin-bottom: 20px;
+}
+/* For small screens like phones */
+/* For small screens like phones */
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    padding: 30px;
+  }
+
+  .hero-image {
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .about-us,
+  .about-us2 {
+    flex-direction: column;
+  }
+
+  .about-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .potential {
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.filterButton{
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border:none;
+  margin-left:20px;
+}
+.filterButton:hover{
+  background-color: #0056b3;
+  color: white;
+  transition:0.3s ease;
+}
+#product-filters {
+  margin: 5px;
+}
+#pet_category, #pet_tag {
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #0056b3;
+  color: white;
+  transition:0.3s ease;
+}
+
+.price {
+  color: black;
+}
+ol > li {
+  border:1px solid black;
+}
+span {
+  color: black;
+}
+.woocommerce span .onsale {
+background-color:red ;
+}
+.bottom-footer {
+  text-align: center;
+}
+.potential {
+  height: 700px;
+  width: 600px;
+  border-radius: 25px;
+margin: 0px 150px;
+}
+.about-text {
+  text-align: center;
+}
